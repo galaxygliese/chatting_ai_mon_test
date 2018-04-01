@@ -1,0 +1,13 @@
+<html>
+  <body>
+  <form action="{{url_for("index_text")}}" method="POST">
+    <input type="text" name="mess" placeholder="text"><br>
+    <input type="submit" value="enter">
+  {% for text in massages %}
+    <li>YOU:{{ text.user }}</li>
+    <li>AI:{{ text.AI }}</li>
+  {% endfor %}
+  </form> 
+  </body>
+
+</html>
