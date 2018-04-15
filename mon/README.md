@@ -1,1 +1,3 @@
-# chatting_ai_mon_test \n USE PYTHON2
+# chatting_ai_mon_test  
+#    USE PYTHON2  
+# python2 mon/app.py
