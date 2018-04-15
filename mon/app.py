@@ -34,7 +34,6 @@ def response(text):
        elif is_mon(text):
          input_text = t.translate(text, 'mn', 'en')
          o = d2v.model.most_similar(d2v.doc_vec(str(input_text)) )[0][0]
-         print o
          o = text_clean(o)
          output = t.translate(str(o), 'en', 'mn')
 
